@@ -1,0 +1,23 @@
+a {
+  text-decoration: none;
+  color: rgb(57, 61, 63);
+  font-weight: 500;
+}
+
+.topo {
+  background-color: rgb(252, 190, 193);
+}
+
+.texto1 {
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.301);
+}
+
+.position {
+  padding-right: 75px;
+  padding-top: 2px;
+}
+
+.teste {
+  border-color: rgba(57, 61, 63, 0.5);
+}

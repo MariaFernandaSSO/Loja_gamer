@@ -1,0 +1,55 @@
+.cor {
+  background-image: linear-gradient(rgb(250, 237, 238), rgb(176, 88, 94));
+}
+
+.hrImprovisado {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.hrImprovisado > p {
+  position: relative;
+  display: inline-block;
+}
+
+.hrImprovisado > p:before,
+.hrImprovisado > p:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 500px;
+  height: 2px;
+  background: rgb(160, 160, 160);
+}
+
+.hrImprovisado > p:before {
+  right: 100%;
+  margin-right: 13px;
+}
+
+.hrImprovisado > p:after {
+  left: 100%;
+  margin-left: 13px;
+}
+
+.marginstar {
+  margin-left: 20px;
+}
+
+.corb1 {
+  background-color: rgb(255, 202, 212);
+}
+
+.corb2 {
+  background-color: rgb(207, 78, 102);
+}
+
+.corb3{
+  background-color: rgb(247, 126, 148);
+}
+
+button {
+  color: rgb(57, 61, 63);
+}

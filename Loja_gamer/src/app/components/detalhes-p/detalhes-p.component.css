@@ -1,0 +1,54 @@
+div.row > div.col {
+  align-items: center;
+}
+
+.imgSize {
+  width: 500px;
+  height: 500px;
+}
+
+.cor1 {
+  background-color: rgba(255, 255, 255, 0.137);
+}
+
+span.badge {
+  color: rgb(247, 183, 187);
+}
+
+.spandesc{
+ font-weight: bold;
+ font-size: 16.4px;
+}
+
+.titulo {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0px;
+  margin: 0px;
+}
+.preco {
+  padding: 0px;
+  margin: 0px;
+  font-weight: 400;
+}
+
+.preco2 {
+  padding-left: 25px;
+  padding-top: 5px;
+  font-size: 16px;
+  color: rgb(112, 112, 112);
+  text-decoration: line-through;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.positionB {
+  margin-top: 40px;
+}
+
+.positiontext{
+  padding-top: 60px;
+}
+

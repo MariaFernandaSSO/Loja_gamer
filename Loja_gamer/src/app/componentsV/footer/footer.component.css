@@ -1,0 +1,24 @@
+.footer {
+  background-color: rgb(252, 190, 193);
+  padding-top: 20px;
+  padding-left: 40px;
+  color: rgb(53, 50, 50);
+  text-shadow: 1px 1px 1px rgba(5, 5, 5, 0.336);
+}
+
+a {
+  text-shadow: none;
+  text-decoration: none;
+  color: rgb(53, 50, 50);
+  font-size: 14px;
+  font-weight: 450;
+}
+
+div.footer > div.col > div.row {
+  padding-top: 5px;
+}
+
+p {
+  font-size: 13px;
+  text-align: justify;
+}

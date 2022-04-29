@@ -1,0 +1,26 @@
+<div class="row pt-4">
+  <div class="col position">
+    <a href="#">Inicio</a><a href="Produtos"> / Produtos</a>
+  </div>
+</div>
+
+   <div class="row pt-3 pb-4" style="padding-left: 26px;">
+    <div *ngFor="let l of produtos; index as i"  class="col pb-3">
+      <div class="card cardStyle">
+        <img [src]="l.img" class="sizeImg">
+        <div class="card-body">
+          <h5 class="card-title">{{l.nome}}</h5>
+          <p class="titulo pr-3">{{l.desc}}</p>
+            <span class="badge bg-primary">{{l.desconto}}</span>
+            <span class="preco2">  {{l.precoAntigo}}</span>
+            <span class="preco"> {{l.preco}}</span>
+            <div class="d-grid gap-2 pt-1">
+          <button type="button" class="btn btn-outline-dark" routerLink="/detalhesp/{{produtos[i].indice}}">VER OFERTA</button>
+        </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+

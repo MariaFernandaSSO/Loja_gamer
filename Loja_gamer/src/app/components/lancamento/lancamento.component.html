@@ -1,0 +1,21 @@
+<div class="row pt-4">
+  <div class="col position"><h2>LANÇAMENTOS</h2></div>
+</div>
+
+   <div class="row pt-3" style="padding-left: 26px;">
+    <div *ngFor="let l of produtosl; index as i"  class="col">
+      <div class="card cardStyle">
+        <img [src]="l.img" class="sizeImg">
+        <div class="card-body">
+          <h5 class="card-title">{{l.nome}}</h5>
+          <p class="titulo pr-3">{{l.desc}}</p>
+            <span class="badge bg-primary bdg">{{l.desconto}}</span>
+            <span class="preco2">  {{l.preco}}</span>
+            <span class="preco"> {{l.preco}}</span>
+            <div class="d-grid gap-2 pt-1">
+          <button type="button" class="btn btn-outline-dark" routerLink="detalhes/{{produtosl[i].indice}}">VER OFERTA</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
